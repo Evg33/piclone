@@ -588,7 +588,7 @@ static gpointer backup_thread (gpointer data)
     if (getenv ("WAYLAND_DISPLAY"))
         sys_printf ("wfpanelctl ejecter %s", dst_dev);
     else
-        sys_printf ("lxpanelctl command ejecter %s", dst_dev);
+        sys_printf ("lxpanelctl-pi command ejecter %s", dst_dev);
     terminate_dialog (_("Copy complete."));
     return NULL;
 }

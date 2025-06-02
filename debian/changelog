@@ -1,3 +1,9 @@
+piclone (1.0) trixie; urgency=medium
+
+  * Rebuild for trixie
+
+ -- Simon Long <simon@raspberrypi.com>  Mon, 02 Jun 2025 13:10:12 +0100
+
 piclone (0.32) bookworm; urgency=medium
 
   * Convert to meson build system
