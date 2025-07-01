@@ -1,3 +1,9 @@
+piclone (1.1) trixie; urgency=medium
+
+  * Do not try to disable lba on partitions which do not support it
+
+ -- Simon Long <simon@raspberrypi.com>  Tue, 01 Jul 2025 14:34:05 +0100
+
 piclone (1.0) trixie; urgency=medium
 
   * Rebuild for trixie

@@ -574,14 +574,6 @@ static gpointer backup_thread (gpointer data)
                 return NULL;
             }
         }
-        else
-        {
-            if (sys_printf (SUDO_PREFIX "parted -s %s set %d lba off", dst_dev, parts[p].pnum))
-            {
-                terminate_dialog (_("Could not set flags."));
-                return NULL;
-            }
-        }
         CANCEL_CHECK;
     }
 
